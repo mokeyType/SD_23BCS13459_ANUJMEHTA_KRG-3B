@@ -1,0 +1,376 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Ticket Booking System - HLD" id="sKj2l1ha10E04iSMb8cK">
+    <mxGraphModel dx="1685" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;fontColor=#1a1a2e;" value="Ticket Booking System — High Level Design" vertex="1">
+          <mxGeometry height="40" width="900" x="400" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-15" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#1a1a2e;" value="&lt;b&gt;6. High Level Design (HLD)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="400" x="860" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;fontStyle=0;" value="&lt;b&gt;CAP Strategy:&lt;/b&gt;  Search/Browse = &lt;b&gt;AP&lt;/b&gt; (High Availability, eventual consistency)&amp;nbsp;&amp;nbsp;|&amp;nbsp;&amp;nbsp;Booking = &lt;b&gt;CP&lt;/b&gt; (Strong Consistency, no double-booking)" vertex="1">
+          <mxGeometry height="30" width="1090" x="860" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-17" parent="1" style="text;html=1;strokeColor=none;fillColor=#d0e0ff;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;rounded=1;" value="CLIENT LAYER" vertex="1">
+          <mxGeometry height="25" width="120" x="860" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-18" parent="1" style="text;html=1;strokeColor=none;fillColor=#ffd966;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;rounded=1;" value="API GATEWAY LAYER" vertex="1">
+          <mxGeometry height="25" width="120" x="860" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-19" parent="1" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;rounded=1;" value="SERVICE LAYER" vertex="1">
+          <mxGeometry height="25" width="120" x="860" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-20" parent="1" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;rounded=1;" value="DATA LAYER" vertex="1">
+          <mxGeometry height="25" width="120" x="860" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-21" parent="1" style="text;html=1;strokeColor=none;fillColor=#ffe6cc;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;rounded=1;" value="ASYNC LAYER" vertex="1">
+          <mxGeometry height="25" width="120" x="860" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-22" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.users;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="1010" y="318" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-23" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.users;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="1230" y="318" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffde7;strokeColor=#d6b656;dashed=0;" value="" vertex="1">
+          <mxGeometry height="90" width="350" x="990" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-25" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" value="" vertex="1">
+          <mxGeometry height="45" width="45" x="1005" y="428" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-26" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;" value="&lt;b&gt;API Gateway &amp; Load Balancer&lt;/b&gt;&#xa;Routing · Auth/AuthZ · Rate Limiting · SSL Termination" vertex="1">
+          <mxGeometry height="65" width="270" x="1058" y="428" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-27" edge="1" parent="1" source="qY9Yzxmkbyx34cncm8wa-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qY9Yzxmkbyx34cncm8wa-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-28" edge="1" parent="1" source="qY9Yzxmkbyx34cncm8wa-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qY9Yzxmkbyx34cncm8wa-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="&lt;b&gt;User Service&lt;/b&gt;&#xa;(Auth / Profile)" vertex="1">
+          <mxGeometry height="55" width="140" x="990" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-31" edge="1" parent="1" source="qY9Yzxmkbyx34cncm8wa-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="qY9Yzxmkbyx34cncm8wa-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-32" edge="1" parent="1" source="qY9Yzxmkbyx34cncm8wa-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1035" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="&lt;b&gt;Search Service&lt;/b&gt;&#xa;(Discover Events)" vertex="1">
+          <mxGeometry height="55" width="140" x="1170" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-35" edge="1" parent="1" source="qY9Yzxmkbyx34cncm8wa-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="qY9Yzxmkbyx34cncm8wa-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-36" edge="1" parent="1" source="qY9Yzxmkbyx34cncm8wa-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1215" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="&lt;b&gt;Event / Catalog Service&lt;/b&gt;&#xa;(Details, Metadata, Shows)" vertex="1">
+          <mxGeometry height="55" width="165" x="1350" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-39" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;fontSize=10;" value="S3&#xa;(Static Assets)" vertex="1">
+          <mxGeometry height="60" width="55" x="1465" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-40" edge="1" parent="1" source="qY9Yzxmkbyx34cncm8wa-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="qY9Yzxmkbyx34cncm8wa-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1290" y="462" />
+              <mxPoint x="1432" y="462" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-41" edge="1" parent="1" source="qY9Yzxmkbyx34cncm8wa-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1390" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-42" edge="1" parent="1" source="qY9Yzxmkbyx34cncm8wa-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="qY9Yzxmkbyx34cncm8wa-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="&lt;b&gt;Booking Service&lt;/b&gt;&#xa;(Seat Lock + Transaction)" vertex="1">
+          <mxGeometry height="55" width="165" x="1560" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-45" edge="1" parent="1" source="qY9Yzxmkbyx34cncm8wa-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="qY9Yzxmkbyx34cncm8wa-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1290" y="462" />
+              <mxPoint x="1642" y="462" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-46" edge="1" parent="1" source="qY9Yzxmkbyx34cncm8wa-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1605" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="&lt;b&gt;Payment Service&lt;/b&gt;&#xa;(Idempotent Transactions)" vertex="1">
+          <mxGeometry height="55" width="165" x="1770" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-48" parent="1" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=10;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.payment;" value="Payment Gateway&#xa;(Razorpay/Stripe)" vertex="1">
+          <mxGeometry height="52" width="60" x="1790" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-49" edge="1" parent="1" source="qY9Yzxmkbyx34cncm8wa-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="qY9Yzxmkbyx34cncm8wa-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-50" edge="1" parent="1" source="qY9Yzxmkbyx34cncm8wa-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="qY9Yzxmkbyx34cncm8wa-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-51" edge="1" parent="1" source="qY9Yzxmkbyx34cncm8wa-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;" value="Success/Failure">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1888" y="664" />
+              <mxPoint x="1888" y="598" />
+              <mxPoint x="2020" y="598" />
+              <mxPoint x="2020" y="550" />
+            </Array>
+            <mxPoint x="1898" y="659.9799999999998" as="sourcePoint" />
+            <mxPoint x="1940" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-57" parent="1" style="text;html=1;align=center;verticalAlign=top;fontSize=10;strokeColor=none;fillColor=none;" value="Read Replicas (3x)" vertex="1">
+          <mxGeometry height="25" width="120" x="1445" y="955" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-58" edge="1" parent="1" source="qY9Yzxmkbyx34cncm8wa-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1642" y="850" />
+              <mxPoint x="1327" y="850" />
+            </Array>
+            <mxPoint x="1327.0212765957444" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-59" edge="1" parent="1" source="qY9Yzxmkbyx34cncm8wa-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1432" y="850" />
+            </Array>
+            <mxPoint x="1462.5106382978724" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-60" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1355.0000000000002" y="930" as="sourcePoint" />
+            <mxPoint x="1440.0000000000002" y="925" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="CDC Pipeline&#xa;(Change Data Capture)" vertex="1">
+          <mxGeometry height="55" width="130" x="1710" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-62" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=10;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.elasticsearch_service;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="1880" y="888" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-63" parent="1" style="text;html=1;align=center;verticalAlign=top;fontSize=10;strokeColor=none;fillColor=none;" value="Amazon Elasticsearch&#xa;(Indexed: city, date, title)" vertex="1">
+          <mxGeometry height="40" width="140" x="1858" y="952" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-64" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="qY9Yzxmkbyx34cncm8wa-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1360" y="930" />
+              <mxPoint x="1710" y="930" />
+            </Array>
+            <mxPoint x="1355.0000000000002" y="930" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-65" edge="1" parent="1" source="qY9Yzxmkbyx34cncm8wa-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="qY9Yzxmkbyx34cncm8wa-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-66" edge="1" parent="1" source="qY9Yzxmkbyx34cncm8wa-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="qY9Yzxmkbyx34cncm8wa-33" value="">
+          <mxGeometry relative="1" x="-0.1452" y="-50" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1910" y="670" />
+              <mxPoint x="1240" y="670" />
+              <mxPoint x="1240" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-67" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.kafka;" value="" vertex="1">
+          <mxGeometry height="42" width="55" x="1310" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-68" parent="1" style="text;html=1;align=center;verticalAlign=top;fontSize=10;strokeColor=none;fillColor=none;" value="Apache Kafka&#xa;(Message Broker)" vertex="1">
+          <mxGeometry height="35" width="100" x="1295" y="1225" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-69" edge="1" parent="1" source="qY9Yzxmkbyx34cncm8wa-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="qY9Yzxmkbyx34cncm8wa-67" value="booking_events">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1642" y="1120" />
+              <mxPoint x="1337" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-70" edge="1" parent="1" source="qY9Yzxmkbyx34cncm8wa-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="qY9Yzxmkbyx34cncm8wa-67" value="payment_events">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1852" y="1155" />
+              <mxPoint x="1337" y="1155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-71" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="Booking Status Consumer&#xa;(Updates Seat + Lock Status)" vertex="1">
+          <mxGeometry height="55" width="175" x="1470" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-72" edge="1" parent="1" source="qY9Yzxmkbyx34cncm8wa-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="qY9Yzxmkbyx34cncm8wa-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-73" edge="1" parent="1" source="qY9Yzxmkbyx34cncm8wa-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1557" y="1010" />
+              <mxPoint x="1327" y="1010" />
+            </Array>
+            <mxPoint x="1327.0212765957444" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-74" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="&lt;b&gt;Notification Service&lt;/b&gt;" vertex="1">
+          <mxGeometry height="55" width="165" x="1690" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-75" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Notification Providers&#xa;(SMTP · FCM · APNS)" vertex="1">
+          <mxGeometry height="50" width="165" x="1690" y="1265" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-76" edge="1" parent="1" source="qY9Yzxmkbyx34cncm8wa-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="qY9Yzxmkbyx34cncm8wa-74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1337" y="1310" />
+              <mxPoint x="1772" y="1310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-77" edge="1" parent="1" source="qY9Yzxmkbyx34cncm8wa-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="qY9Yzxmkbyx34cncm8wa-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-78" parent="1" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;rounded=1;fontSize=10;" value="&lt;b&gt;Seat Locking Flow (Critical Path for Consistency)&lt;/b&gt;&#xa;1. POST /v1/bookings arrives at Booking Service&#xa;2. Booking Service calls Redis SETNX seat:{show_id}:{seat_id} = user_id (TTL=5min)&#xa;3. If SETNX returns 0 → seat already locked → reject immediately&#xa;4. If SETNX returns 1 → seat locked → proceed to Payment Service&#xa;5. Payment success → DB write (status=BOOKED) → Kafka event → Redis key deleted&#xa;6. Payment fail / TTL expires → lock auto-releases → seat returns to AVAILABLE" vertex="1">
+          <mxGeometry height="120" width="760" x="990" y="1355" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-79" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="160" width="420" x="990" y="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-80" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=12;fontStyle=1;" value="&lt;b&gt;Legend&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="200" x="1005" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-81" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="22" width="80" x="1005" y="1538" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-82" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" value="Write / Booking path (CP)" vertex="1">
+          <mxGeometry height="22" width="200" x="1095" y="1538" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-83" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="22" width="80" x="1005" y="1570" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-84" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" value="Read / Search path (AP)" vertex="1">
+          <mxGeometry height="22" width="200" x="1095" y="1570" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-85" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="22" width="80" x="1005" y="1602" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-86" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" value="Async processing" vertex="1">
+          <mxGeometry height="22" width="200" x="1095" y="1602" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-87" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" value="- - → Dashed = Cache hit / async read&#xa;——→ Solid = Synchronous call" vertex="1">
+          <mxGeometry height="35" width="300" x="1005" y="1634" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-88" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="500" width="600" x="200" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-2" parent="qY9Yzxmkbyx34cncm8wa-88" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="" vertex="1">
+          <mxGeometry height="500" width="600" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-3" parent="qY9Yzxmkbyx34cncm8wa-88" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=13;fontStyle=1;" value="&lt;b&gt;1. Functional Requirements&lt;/b&gt;" vertex="1">
+          <mxGeometry height="25" width="410" x="61.42857142857143" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-4" parent="qY9Yzxmkbyx34cncm8wa-88" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=11;" value="&lt;ol&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;User discovers events via filters: &lt;b&gt;Title, City, Date&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;User views event details:&amp;nbsp;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Seats (available/occupied),&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Description, Cast, Duration, Language, Ratings&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;User selects a seat and completes a &lt;b&gt;Booking Transaction&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;" vertex="1">
+          <mxGeometry height="110" width="471.42857142857144" x="14.285714285714286" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-5" parent="qY9Yzxmkbyx34cncm8wa-88" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=13;fontStyle=1;" value="&lt;b&gt;2. Non-Functional Requirements&lt;/b&gt;" vertex="1">
+          <mxGeometry height="25" width="542.8571428571429" x="35.714285714285715" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-6" parent="qY9Yzxmkbyx34cncm8wa-88" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=11;" value="&lt;ol&gt;&lt;li&gt;&lt;b&gt;100 Million DAU&lt;/b&gt; — massive horizontal scale&lt;/li&gt;&lt;li&gt;&lt;b&gt;High Availability (AP)&lt;/b&gt; for Search/Browse — stale data &gt; downtime&lt;/li&gt;&lt;li&gt;&lt;b&gt;High Consistency (CP)&lt;/b&gt; for Booking — no double-booking ever&lt;/li&gt;&lt;/ol&gt;" vertex="1">
+          <mxGeometry height="100" width="557.1428571428571" x="14.285714285714286" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-7" parent="qY9Yzxmkbyx34cncm8wa-88" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=13;fontStyle=1;" value="&lt;b&gt;3. Core Entities&lt;/b&gt;" vertex="1">
+          <mxGeometry height="25" width="542.8571428571429" x="50" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-8" parent="qY9Yzxmkbyx34cncm8wa-88" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=11;" value="&lt;ol&gt;&lt;li&gt;&lt;b&gt;User&lt;/b&gt; — id, name, email, phone&lt;/li&gt;&lt;li&gt;&lt;b&gt;Event&lt;/b&gt; — id, title, description, cast, duration, language, rating&lt;/li&gt;&lt;li&gt;&lt;b&gt;Venue&lt;/b&gt; — id, name, city, address&lt;/li&gt;&lt;li&gt;&lt;b&gt;Show&lt;/b&gt; — id, event_id, venue_id, start_time, end_time&lt;/li&gt;&lt;li&gt;&lt;b&gt;Seat&lt;/b&gt; — id, venue_id, row_label, seat_number, type, &lt;b&gt;status&lt;/b&gt; (available/locked/booked)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Booking&lt;/b&gt; — id, user_id, show_id, total_amount, status, timestamp&lt;/li&gt;&lt;/ol&gt;" vertex="1">
+          <mxGeometry height="150" width="564.2857142857143" x="14.285714285714286" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-89" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="270" width="420" x="215" y="767.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-9" parent="qY9Yzxmkbyx34cncm8wa-89" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="270" width="420" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-10" parent="qY9Yzxmkbyx34cncm8wa-89" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=13;fontStyle=1;" value="&lt;b&gt;4. API Design&lt;/b&gt;" vertex="1">
+          <mxGeometry height="25" width="380" x="10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-11" parent="qY9Yzxmkbyx34cncm8wa-89" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=11;fontFamily=Courier New;" value="&lt;b&gt;GET&lt;/b&gt;  /v1/events?title=&amp;city=&amp;date=&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;→ Returns list of matching events&lt;br&gt;&lt;br&gt;&lt;b&gt;GET&lt;/b&gt;  /v1/events/{event_id}&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;→ Returns metadata + description for an event&lt;br&gt;&lt;br&gt;&lt;b&gt;GET&lt;/b&gt;  /v1/shows/{show_id}/seats&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;→ Returns seat map + availability for a show&lt;br&gt;&lt;br&gt;&lt;b&gt;POST&lt;/b&gt; /v1/bookings&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;BODY: { event_id, show_id, seat_id }&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;→ Locks seat + initiates booking transaction" vertex="1">
+          <mxGeometry height="225" width="400" x="10" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-91" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="300" width="420" x="215" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-12" parent="qY9Yzxmkbyx34cncm8wa-91" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
+          <mxGeometry height="300" width="420" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-90" connectable="0" parent="qY9Yzxmkbyx34cncm8wa-91" style="group" value="" vertex="1">
+          <mxGeometry height="280" width="400" x="10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-13" parent="qY9Yzxmkbyx34cncm8wa-90" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=13;fontStyle=1;" value="&lt;b&gt;5. Database Schema Design (PostgreSQL)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="25" width="400" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-14" parent="qY9Yzxmkbyx34cncm8wa-90" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=11;fontFamily=Courier New;" value="&lt;b&gt;users:&lt;/b&gt;      id (PK), name, email (UNIQUE), phone&lt;br&gt;&lt;b&gt;events:&lt;/b&gt;     id (PK), title, description, cast,&lt;br&gt;            duration, language, rating&lt;br&gt;&lt;b&gt;venues:&lt;/b&gt;     id (PK), name, city, address&lt;br&gt;&lt;b&gt;shows:&lt;/b&gt;      id (PK), event_id (FK), venue_id (FK),&lt;br&gt;            start_time, end_time&lt;br&gt;&lt;b&gt;seats:&lt;/b&gt;      id (PK), venue_id (FK), row_label,&lt;br&gt;            seat_number, type,&lt;br&gt;            &lt;b&gt;status ENUM(available, locked, booked)&lt;/b&gt;&lt;br&gt;&lt;b&gt;bookings:&lt;/b&gt;   id (PK), user_id (FK), show_id (FK),&lt;br&gt;            total_amount, status, timestamp&lt;br&gt;&lt;br&gt;&lt;i&gt;Indexes: shows(event_id), shows(venue_id),&lt;br&gt;seats(venue_id, status), bookings(user_id)&lt;/i&gt;" vertex="1">
+          <mxGeometry height="255" width="400" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-93" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(35, 47, 62); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Users&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(35, 47, 62); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(35, 47, 62); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;(Web / Mobile)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="42" width="80" x="1070" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-96" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(35, 47, 62); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Event Organisers&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="1287" y="329" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-97" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server_Group.svg;" value="" vertex="1">
+          <mxGeometry height="68" width="60" x="1010" y="607" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-98" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;User DB&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;(PostgreSQL)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="90" x="1010" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-99" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.elasticsearch_service;" value="Amazon Elasticsearch Service" vertex="1">
+          <mxGeometry height="85" width="40" x="1190" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-100" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;(indexed: title, city, date)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="115" x="1165" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-101" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Redis Cache&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;(Event Details)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="59.52" x="1365" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-103" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Redis&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;(Seat Locks + TTL)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="43" width="51.19" x="1579" y="621" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-104" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Search queries&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="110" x="1629" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-105" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" value="" vertex="1">
+          <mxGeometry height="64" width="48" x="1305" y="893" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-106" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Primary DB&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;(PostgreSQL)&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Bookings + Events&lt;/span&gt;" vertex="1">
+          <mxGeometry height="52" width="85" x="1243" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-107" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Async Replication&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="1353" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-110" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="37.5" x="1445" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-111" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="37.5" x="1490" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Yzxmkbyx34cncm8wa-112" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="37.5" x="1538.75" y="902" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
